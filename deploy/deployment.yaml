@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: gepl/udagram-reverseproxy
+      - image: javaire/udagram-reverseproxy
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
